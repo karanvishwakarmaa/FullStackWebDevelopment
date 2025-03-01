@@ -1,0 +1,47 @@
+h1{
+    color: teal;
+}
+
+h2{
+    color: pink;
+}
+
+h3{
+    color: purple;
+}
+
+h4{
+    color: orange;
+}
+
+h5{
+    color: blue;
+}
+
+h6{
+    color: gray;
+}
+
+/* Add a hover effect */
+
+/* h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    color: yellow;
+} */
+
+/* Add a transition effect */
+
+/* h1, h2, h3, h4, h5, h6 {
+    transition: color 0.5s ease;
+} */
+
+/* Add a box shadow effect */
+
+h1, h2, h3, h4, h5, h6 {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Add a border effect */
+
+h1, h2, h3, h4, h5, h6 {
+    border: 2px solid gray;
+}
