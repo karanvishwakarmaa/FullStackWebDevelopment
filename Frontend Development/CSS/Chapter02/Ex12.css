@@ -35,3 +35,15 @@ h1{
         cursor: pointer;
         background-color: lightgray;
     }
+
+    /* Descendant Selector */
+
+    p a{
+        color: blue;
+        text-decoration: underline;
+        background-color: yellow;
+    }
+
+    p + h3{
+        text-decoration: underline;
+    }
