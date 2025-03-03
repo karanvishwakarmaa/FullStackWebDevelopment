@@ -1,0 +1,18 @@
+/* h2{
+    display: inline;
+    background-color: lightblue;
+
+}
+
+span{
+    display: block;
+    background-color: yellow;
+} */
+span{
+    background-color: lime;
+    border: 2px solid black;
+    height: 100px;
+    width: 20px;
+    padding: 50px;
+    
+}
