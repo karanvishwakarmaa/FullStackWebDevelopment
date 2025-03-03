@@ -1,0 +1,18 @@
+/* div{
+    background-color: blue ;
+}
+p{
+    background-color: yellow;
+} */
+
+div{
+    background-color: yellow;
+}
+
+/* form{
+    background-color: rebeccapurple;
+} */
+
+input{
+    background-color: inherit;
+}
