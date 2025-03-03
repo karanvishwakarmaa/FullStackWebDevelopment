@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    color: lightcoral;
+    background: purple transparent;
+}
+
+p{
+    text-decoration: underline;
+    font-size: larger; font-family: "Helvetica Neue";
+}

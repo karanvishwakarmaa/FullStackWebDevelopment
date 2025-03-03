@@ -1,0 +1,19 @@
+h1{
+    text-align: center
+}
+
+h2{
+    font-weight: normal;
+}
+
+h3{
+    text-align: start;
+}
+
+p{
+    font-size: 1.2em;
+    font-style: italic;
+    color: gray;
+    margin-top: 1em;
+    text-align: justify;
+}
