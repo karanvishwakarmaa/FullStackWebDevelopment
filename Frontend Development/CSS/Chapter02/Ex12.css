@@ -47,3 +47,7 @@ h1{
     p + h3{
         text-decoration: underline;
     }
+
+    div>input{
+        background: darkblue;
+    }
