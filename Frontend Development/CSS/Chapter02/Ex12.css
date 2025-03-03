@@ -1,0 +1,37 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+}
+
+h3{
+    color: purple;
+    text-decoration: underline;
+
+}
+
+h1{
+    color: #b92b27;
+    text-align: center;
+    background-color: black;
+}
+
+#login{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login:hover{
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote
+    {
+        color: green;
+        cursor: pointer;
+        background-color: lightgray;
+    }

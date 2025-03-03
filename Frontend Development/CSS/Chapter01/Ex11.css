@@ -5,6 +5,9 @@ h1{
 }
 
 p{
-    text-decoration: underline;
-    font-size: larger; font-family: "Helvetica Neue";
+    text-decoration: pink double underline;
+    line-height: 1.5;
+    /* letter-spacing: 10px; */
+    /* font-size: larger; font-family: "Helvetica Neue"; */
+font-size: 25px;
 }
