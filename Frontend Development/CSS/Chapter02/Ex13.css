@@ -15,6 +15,6 @@
 
 #hover:active{
     background-color: lightblue;
-    color: white;
+    color: blue;
     cursor: progress;
 }
