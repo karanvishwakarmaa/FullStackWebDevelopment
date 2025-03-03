@@ -18,3 +18,21 @@
     color: blue;
     cursor: progress;
 }
+
+input[type="radio"]:checked + label{
+    /* background-color: lightgreen; */
+    font-weight: bold;
+    color: red;
+}
+
+/* #hover:nth-of-type(1){
+    background-color: blanchedalmond;
+} */
+
+h1::first-letter{
+    color: purple;
+}
+
+p::selection{
+    color: lightcoral;
+}
