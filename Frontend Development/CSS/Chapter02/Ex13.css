@@ -1,0 +1,20 @@
+#hover{
+    background-color: lightcoral;
+    font-size: larger;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+
+}
+
+#hover:hover {
+    background-color: white;
+    text-align: center;
+    color: lightcoral;
+}
+
+#hover:active{
+    background-color: lightblue;
+    color: white;
+    cursor: progress;
+}
