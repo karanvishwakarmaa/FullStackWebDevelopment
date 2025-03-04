@@ -2,10 +2,19 @@
     height: 200px;
     width: 200px;
     background-color: lightpink;
-    /* transition: 2s */
+    margin-left: 200px;
+    margin-top: 200px;
+    background-image: url("bg-img.jpeg");
+    background-size: auto;
+
 }
 
 .demo:hover{
+    transition: 2s 1s;
     background-color: rgb(226, 19, 54);
     border-radius: 50%;
+    transform: rotate(360deg);
+    cursor: pointer;
+    transform: scale(2);
+    box-shadow: 4px 4px 7px purple;
 }
