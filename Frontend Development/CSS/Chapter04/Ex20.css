@@ -1,0 +1,11 @@
+.demo{
+    height: 200px;
+    width: 200px;
+    background-color: lightpink;
+    /* transition: 2s */
+}
+
+.demo:hover{
+    background-color: rgb(226, 19, 54);
+    border-radius: 50%;
+}

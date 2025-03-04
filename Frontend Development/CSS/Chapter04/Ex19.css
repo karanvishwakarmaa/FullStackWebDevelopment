@@ -1,0 +1,10 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 1);
+}
+p{
+    font-size: 9px;
+    color: aqua;
+    opacity: 0.40;
+}
