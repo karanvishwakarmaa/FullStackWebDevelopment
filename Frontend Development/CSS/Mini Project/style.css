@@ -14,7 +14,7 @@ background-position: center;
 /* filter: opacity(50%); */
 }
 
-.btn_one{
+.btn_one i{
     color: white;
     font-size: 30px;
     font-weight: 700;
@@ -22,14 +22,17 @@ background-position: center;
     left: 16px;
     line-height: 60px;
     cursor: pointer;
+    transition: all 0.4s linear;
+
 }
 .sidebar_menu{
     position: fixed;
-    /* left: -100px; */
+    left: -300px;
     height: 100vh;
     width: 300px;
     background-color: rgba(0, 115, 255, 0.1);
     box-shadow: 0 0 2px rgba(28, 134, 247, 0.5);
+    transition: all 0.4s linear;
 }
 
 .sidebar_menu .logo{
@@ -113,11 +116,23 @@ padding: 14px 20px;
     
 }
 
-.btn_one:hover{
+.btn_one i:hover{
     font-size: 40px;
 
 }
 
-.btn_two:hover{
+.btn_two i:hover{
     font-size: 30px;
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#check:checked ~.sidebar_menu {
+    left: 0;
+}
+
+#check:checked ~.btn_one i {
+    opacity: 0;
 }
